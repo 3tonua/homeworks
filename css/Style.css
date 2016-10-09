@@ -1,0 +1,24 @@
+body {
+	background-attachment:fixed;  
+	font:14px/24px Arial,Helvetica,sans-serif; 
+	color:#333; 
+	width: 100%;
+	min-width: 920px;
+
+}
+
+#main { width:920px; margin:auto;	position:relative;	top:20px;  }
+
+hr {
+	width: 70%;
+	position: relative;
+	margin-left: 0;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
