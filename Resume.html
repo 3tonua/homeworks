@@ -8,71 +8,67 @@
 </head>
 
 <body>
-<div id="main">
+
+
 	<header>
 
-	<p><h1>Резюме</h1></p>
-	<p class="italic">На должность Front end developer</p>
-	
-	<table  bgcolor="#efefef">
-		<tr>
-			<td>
-				<img src="img/1.jpg" width="200px" height="200px">
-			</td>
-				
-			<td width="300px">
-				<p><b>Иванов Антон Алексеевич</b></p>
-				<p>08.01.1989</p>
-				<p>3ton.ua@gmail.com</p>
-				<p>+380962577057</p>
-				<a href="https://vk.com/id22507809" target="_blank"><img src="img/vk.png" width="70px" height="20px"></a>
-				<a href="https://www.facebook.com/ivanov.anton.ua" target="_blank"><img src="img/fb.png" width="70px" height="20px"></a>
-			</td>
-		
-		<table width="300px">
-						
-			<tr>
-				<td class="bold">Образование</td>
-					<td>Высшее</td>
-			</tr>
-			<tr>
-				<td class="bold">Опыт работы</td>
-				<td>До 1го года</td>
-			</tr>
-			<tr>
-				<td class="bold">Тип работы</td>
-				<td>Постоянная</td>
-			</tr>
-			<tr>
-				<td class="bold">Вид занятости</td>
-				<td>Полная</td>
-			</tr>
-		</table>
-	</table>
-	</header>
+        <img src="img/1.jpg" alt="photo" class="photo">
+        <p class="resume bold">Резюме</p>
+        <p class="resume">На должность Front-end</p>
+
+    </header>
+
+	<p class="bold big">Иванов Антон Алексеевич</p>
+	<p class="bold">08.01.1989</p>
+	<p class="bold">3ton.ua@gmail.com</p>
+	<p class="bold">+380962577057</p>
+
+	<hr>
+
+	<section class="columns">
+
+		<span class="left">
+			<ul>
+				<h2>Общая информация</h2></li>
+				<li><p class="bold">Образование</p></li>
+				<p>Высшее</p>
+				<li><p class="bold">Опыт работы</p></li>
+				<p>Более 5ти лет</p>
+				<li><p class="bold">Тип работы</p></li>
+				<p>Постоянная</p>
+				<li><p class="bold">Вид занятости</p></li>
+				<p>Полная</p>
+			</ul>
+		</span>
+
+		<span class="right">
+			<ul>
+
+				<p><h2>Профессиональные навыки</h2></p>
+				<p><li>Успешный опыт проектирования крупных объектов</li></p>
+				<p><li>Уверенный пользователь ПК (MS Office: Word, Excel; AutoCAD;)</li></p>
+				<p><li>Знание нормативной документации по проектированию</li></p>
+				<p><li>Знания HTML/CSS, JavaScript, Jquery</li></p>
+				<p><li>Теоретические знания ООП</li></p>
+				<p><li>Базовые знания php</li></p>
+				<p><li>Знание основ MySQL</li></p>
+				<p><li>Знание программного продукта Adobe PhotoShop CC 2014</li></p>
+
+			</ul>
+
+		</span>
+
+
+	</section>
+
+
+
+
+
 
 <hr>
 
 
-
-
-
-<br>
-
-<p><h2>Профессиональные навыки</h2></p>
-<hr>
-	<ul>
-		<li>Знания HTML/CSS</li>
-		<li>Знания JavaScript, Jquery</li>
-		<li>Теоретические знания ООП</li>
-		<li>Знания по работе с cms WordPress</li>
-		<li>Знание Twitter Bootstrap</li>
-		<li>Базовые знания php</li>
-		<li>Знание основ MySQL</li>
-		<li>Знание программного продукта NetBeans IDE 7.2</li>
-		<li>Знание программного продукта Adobe PhotoShop CC 2014</li>
-		<li>Знание английского языка на уровне intermediate</li>
-	</ul>
 
 <br>
 <p><h2>Опыт работы</h2></p>
@@ -82,8 +78,18 @@
 <col width="100px" valign="top">
 	<tr>
 		<th>2008 - 2015</th>
-		<td>Наладчик автоматического оборудования
-		</td>
+		<td>
+            <ul>
+
+                <li>Наладка автоматического оборудования</li>
+                <li>Ремонт, регулировка, испытание, монтаж и сдача приборов КИП и А</li>
+                <li>Настройка и наладка устройств релейной защиты</li>
+                <li>Настройка и наладка устройств электроавтоматики</li>
+                <li>Составление и монтаж схем соединений</li>
+
+            </ul>
+
+        </td>
 	</tr>
 
 </col>
@@ -98,8 +104,8 @@
 	<tr>
 		<th>2012</th>
 		<td width="400px">Харьковский национальный университет городского хозяйства им. Бекетова
-		<p class="italic">Кафедра «ЭТ»</p> 
-		</td>
+		<p class="italic">Кафедра «ЭТ». Инженер</p>
+        </td>
 	</tr>
 
 </col>
@@ -137,4 +143,15 @@
 
 
 	</body>
+
+<footer>
+		<a class="up" href="#" onClick="scroll(0,0); return false" title="наверх"> Наверх^ </a>
+		<a href="mailto:3ton.ua@gmail.com?subject=Резюме"><img class="link" src="img/mail.png" width="30px" height="30px"></a>
+		<a href="https://vk.com/id22507809" target="_blank"><img class="link" src="img/vk.png" width="30px" height="30px"></a>
+        <a href="https://www.facebook.com/ivanov.anton.ua" target="_blank"><img class="link" src="img/fb.png" width="30px" height="30px"></a>
+
+</footer>
+
+
+
 </html>

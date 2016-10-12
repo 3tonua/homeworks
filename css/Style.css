@@ -1,19 +1,8 @@
-body {
-	background-attachment:fixed;  
-	font:14px/24px Arial,Helvetica,sans-serif; 
-	color:#333; 
-	width: 100%;
-	min-width: 920px;
-
+* {
+	font-family: "SansSerif";
 }
 
-#main { width:920px; margin:auto;	position:relative;	top:20px;  }
 
-hr {
-	width: 70%;
-	position: relative;
-	margin-left: 0;
-}
 
 .bold {
 	font-weight: bold;
@@ -21,4 +10,88 @@ hr {
 
 .italic {
 	font-style: italic;
+}
+
+header{
+	position: fixed;
+    top: 0;
+	margin: 0;
+	width: 60%;
+    height: 170px;
+	background: #4867aa;
+	border-radius: 5px;
+	box-shadow: 5px 5px 20px #333;
+}
+
+body{
+	margin: 180px 20% 0 20%;
+    background-color: #e5e9f1;
+}
+
+.columns {
+	font-size: 0;
+	}
+
+span{
+	font-size: 16px;
+	line-height: 1;
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+
+.left{
+	background-color: lightskyblue;
+	height: 350px;
+}
+
+ul, li {
+	line-height: 100%;
+
+}
+
+.right{
+	background-color: lightblue;
+	height: 350px;
+}
+
+footer{
+	background: #4867aa;
+	width: 100%;
+	height: 40px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.photo{
+	width: 150px;
+	height: 150px;
+    padding-top: 10px;
+    padding-right: 10px;
+    float: right;
+
+}
+
+.resume{
+	color: white;
+	font-size: 50px;
+	opacity: 0.5;
+    padding-left: 30px;
+    margin-top: 50px;
+    line-height: 0.5;
+}
+
+
+.link{
+	float: right;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+
+.up	{
+	color: #fefefe;
+	 }
+
+.big {
+    font-size: 30px;
 }
